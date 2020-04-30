@@ -72,3 +72,4 @@ _Coming soon_
 ## Guides
 
 - [Accept a new payment method](./guides/accept-a-new-payment-method.md)
+- [Payment Context](./concepts/payment-context.md)
