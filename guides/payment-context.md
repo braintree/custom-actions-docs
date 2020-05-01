@@ -88,7 +88,7 @@ export const CreatePaymentContext = async (
 
 ## Accessing the payment context
 
-After creating a payment context, it can be retrieved using the node query, and the payment context ID provided after creation:
+After creating a payment context, it can be retrieved using a [node query](https://graphql.braintreepayments.com/guides/node_query/), and the payment context ID provided after creation:
 
 ### Mutation
 
