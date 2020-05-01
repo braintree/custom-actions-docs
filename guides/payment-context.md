@@ -48,18 +48,17 @@ mutation CreateCustomActionsPaymentContext(
 ### Variables
 
 ```json
-{
+ {
   "input": {
     "actionName": "your-custom-actions-project-name",
     "customFields": [
       {
-			  "name": "custom-field-name",
-			  "value": "custom-field-value"
-		  }
+        "name": "custom-field-name",
+        "value": "custom-field-value"
+      }
     ]
   }
 }
-```
 
 ## Create payment context event handler
 
