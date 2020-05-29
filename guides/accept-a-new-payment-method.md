@@ -178,6 +178,7 @@ mutation ExampleAuth($input: AuthorizePaymentMethodInput!) {
   "input": {
     "paymentMethodId": "tokencap_123",
     "transaction": {
+      "merchantAccountId": "id_of_custom_action_enabled_merchant_account",
       "amount": "11.23"
     }
   }
@@ -465,6 +466,7 @@ mutation TokenizeCustomActionsPaymentMethod(
 ) {
   tokenizeCustomActionsPaymentMethod(input: $input) {
     paymentMethod {
+      id
       details {
         ... on CustomActionsPaymentMethodDetails {
           actionName
@@ -485,7 +487,7 @@ mutation TokenizeCustomActionsPaymentMethod(
 {
   "input": {
     "customActionsPaymentMethod": {
-      "actionName": "FooPay",
+      "actionName": "foopay",
       "fields": [
         {
           "name": "accountNumber",
@@ -512,7 +514,7 @@ mutation TokenizeCustomActionsPaymentMethod(
       "paymentMethod": {
         "id": "tokencap_123",
         "details": {
-          "actionName": "FooPay",
+          "actionName": "foopay",
           "fields": [
             {
               "name": "accountNumber",
