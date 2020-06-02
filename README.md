@@ -1,3 +1,7 @@
+# The Custom Actions docs have moved to https://braintree.gitbook.io/custom-actions/
+
+---
+
 # <img src="https://user-images.githubusercontent.com/1217116/73565740-d2d7e900-4427-11ea-8d5b-b5692c425de0.png" alt="drawing" width="42" /> Custom Actions
 
 <sup>**Last edit:** 05/01/2020</sup>
